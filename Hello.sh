@@ -1,5 +1,5 @@
 #!/bin/bash
 
 echo "---------    BEGIN MESSAGES  -------" 
-# cat ./README
+cat ./README
 echo "---------    END MESSAGES    -------" 
