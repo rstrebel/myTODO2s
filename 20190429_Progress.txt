@@ -1,0 +1,55 @@
+Permalinks
+
+    Last build (#6), 55 min ago
+    Last stable build (#6), 55 min ago
+    Last successful build (#6), 55 min ago
+    Last failed build (#3), 5 days 0 hr ago
+    Last unsuccessful build (#3), 5 days 0 hr ago
+    Last completed build (#6), 55 min ago
+
+Help us localize this page
+Page generated: Apr 29, 2019 3:53:57 PM EDTREST APIJenkins ver. 2.138.3
+========================================================================================
+
+Stage Logs (Create build output)
+-------------------------------
+Stage Logs (Go to git)
+------------------------
+Git -- https://github.com/rstrebel/myTODO2s.git -- (self time 313ms) 
+
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/rstrebel/myTODO2s.git # timeout=10
+Fetching upstream changes from https://github.com/rstrebel/myTODO2s.git
+ > git --version # timeout=10
+
+Setting http proxy: mvcache.xxx.cxnxn.cxm:80
+ > git fetch --tags --progress https://github.com/rstrebel/myTODO2s.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 326c7c579e269bf463f8543e91b291365d706a68 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 326c7c579e269bf463f8543e91b291365d706a68
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master 326c7c579e269bf463f8543e91b291365d706a68
+Commit message: "Update Hello.sh"
+ > git rev-list --no-walk 326c7c579e269bf463f8543e91b291365d706a68 # timeout=10
+
+Stage Logs (more stuff)
+-----------------------
+Print Message -- more stuff stage - commented out -- (self time 23ms)
+Shell Script -- mkdir -p output -- (self time 265ms)
+Write file to workspace (self time 6ms)
+Write file to workspace (self time 4ms)
+
+
+Stage Logs (Run a script)
+--------------------------
+Print Message -- Run a script - commented out -- (self time 4ms)
+Shell Script -- mkdir -p output -- (self time 260ms)
+Shell Script -- chmod 555 ./Hello.sh -- (self time 260ms)
+Shell Script -- . /home/jenkins/.bash_profile -- (self time 262ms)
+Shell Script -- cd /var/lib/jenkins/jobs/TEST_JENKINS_PIPELINE/workspace -- (self time 259ms)
+Shell Script -- ./Hello.sh > ./output/file1.txt -- (self time 257ms) 
